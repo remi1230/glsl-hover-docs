@@ -1,0 +1,63 @@
+{
+  "name": "glsl-hover-docs",
+  "displayName": "GLSL Hover Documentation",
+  "description": "Documentation au survol pour les fonctions natives et personnalisées GLSL dans les fichiers .frag, .vert et .glsl",
+  "version": "1.2.0",
+  "publisher": "remitafforeau",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "glsl",
+    "shader",
+    "opengl",
+    "webgl",
+    "documentation"
+  ],
+  "activationEvents": [
+    "onLanguage:glsl"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "glsl",
+        "extensions": [
+          ".glsl",
+          ".frag",
+          ".vert",
+          ".vs",
+          ".fs",
+          ".gs",
+          ".comp",
+          ".tesc",
+          ".tese"
+        ],
+        "aliases": [
+          "GLSL",
+          "glsl"
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remi1230/glsl-hover-docs.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/remi1230/glsl-hover-docs/issues"
+  },
+  "homepage": "https://github.com/remi1230/glsl-hover-docs#readme"
+}

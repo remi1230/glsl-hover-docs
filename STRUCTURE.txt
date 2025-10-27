@@ -1,0 +1,56 @@
+📦 GLSL Hover Documentation - Structure du Projet
+═══════════════════════════════════════════════════
+
+glsl-hover-docs/
+│
+├── 📖 GUIDES DE DÉMARRAGE
+│   ├── START-HERE.md           ⭐ COMMENCEZ ICI ! Résumé complet
+│   ├── INDEX.md                📚 Vue d'ensemble et navigation
+│   ├── QUICKSTART.md           🚀 Installation en 3 étapes
+│   └── PREVIEW.md              👀 Aperçu visuel des popups
+│
+├── 📘 DOCUMENTATION
+│   ├── README.md               📖 Documentation complète
+│   ├── INSTALL.md              🔧 Guide d'installation détaillé
+│   ├── CONTRIBUTING.md         🤝 Guide de contribution
+│   ├── CHANGELOG.md            📝 Historique des versions
+│   └── LICENSE                 ⚖️  Licence MIT
+│
+├── 💻 CODE SOURCE
+│   ├── extension.js            🎯 Code principal (Hover Provider)
+│   ├── glsl-functions.js       📚 Base de données (103 fonctions)
+│   └── package.json            ⚙️  Configuration VSCode
+│
+├── 🧪 TESTS & EXEMPLES
+│   ├── test-all-functions.frag 🧪 Test de toutes les fonctions
+│   └── example.frag            🎨 Exemple de shader animé
+│
+├── 🛠️ SCRIPTS DE BUILD
+│   ├── build.sh                🐧 Script Linux/Mac
+│   └── build.bat               🪟 Script Windows
+│
+└── ⚙️ CONFIGURATION
+    ├── .vscodeignore           🚫 Exclusions du package
+    └── .gitignore              🚫 Exclusions Git
+
+
+═══════════════════════════════════════════════════
+📊 STATISTIQUES
+═══════════════════════════════════════════════════
+
+✅ 103 fonctions GLSL documentées
+✅ 13 fichiers de documentation
+✅ 2 fichiers de test/exemple
+✅ 2 scripts de build (multi-plateforme)
+✅ Support de 9 extensions (.frag, .vert, etc.)
+✅ 100% Open Source (MIT)
+
+
+═══════════════════════════════════════════════════
+🚀 DÉMARRAGE RAPIDE
+═══════════════════════════════════════════════════
+
+1️⃣  Lisez START-HERE.md
+2️⃣  Exécutez build.sh ou build.bat
+3️⃣  Installez le .vsix dans VSCode
+4️⃣  Testez avec test-all-functions.frag
