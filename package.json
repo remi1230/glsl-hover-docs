@@ -39,9 +39,16 @@
         "aliases": [
           "GLSL",
           "glsl"
-        ]
+        ],
+        "configuration": "./language-configuration.json",
+        "mimetypes": ["text/x-glsl"]
       }
-    ]
+    ],
+    "grammars": [{
+      "language": "glsl",
+      "scopeName": "source.glsl",
+      "path": "./syntaxes/glsl.tmLanguage.json"
+    }]
   },
   "scripts": {
     "package": "vsce package --no-dependencies"

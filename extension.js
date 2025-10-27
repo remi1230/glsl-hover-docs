@@ -73,6 +73,11 @@ function parseCustomShaderFunctions(document) {
  */
 function createHoverMarkdown(funcInfo, functionName) {
     const markdown = new vscode.MarkdownString();
+
+    console.log('=== DEBUG HOVER ===');
+    console.log('Fonction:', functionName);
+    console.log('Signature:', funcInfo.signature);
+    console.log('Ajout codeblock avec langage: glsl');
     
     // Titre avec badge si fonction custom
     if (funcInfo.isCustom) {
@@ -81,6 +86,9 @@ function createHoverMarkdown(funcInfo, functionName) {
     
     // Signature en code block
     markdown.appendCodeblock(funcInfo.signature, 'glsl');
+
+    console.log('Markdown créé:', markdown.value);
+    console.log('===================');
     
     // Description
     if (funcInfo.description) {
